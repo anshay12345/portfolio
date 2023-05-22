@@ -4,6 +4,8 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import { StyleConstants } from "../../../styles/StyleConstants";
 import { Key, useEffect } from "react";
 import { logo } from "../../../data/constants";
+import classes from "./Experience.module.css";
+
 interface IExperience {
   span?: string;
   company?: string;
@@ -89,6 +91,9 @@ const Experience = ({ experience }: Prop) => {
     progress = [],
   } = experience;
 
+  //console.log("checking for experience---> ", logo)
+  console.log("logo checking----> ", logo[company.toLowerCase()])
+  console.log("company---> ", company)
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -96,7 +101,7 @@ const Experience = ({ experience }: Prop) => {
     <Wrapper>
       <CompanyWrapper>
         <div className="logo">
-          <img src={logo[company.toLowerCase()]} alt="logo" />
+          <img className={classes.img} src={logo[company.toLowerCase()]} alt="logo" />
         </div>
         <div className="employment-info">
           <div className="name bold">{company}</div>

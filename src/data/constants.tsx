@@ -1,6 +1,7 @@
 import Google from "../assets/google.jpg";
 import Verizon from "../assets/verizon.jpg";
 import ProjectImg from "../assets/project.jpg";
+import innovaccer from "../assets/innovaccer.png"
 interface Map {
   [key: string]: string | undefined;
 }
@@ -9,7 +10,7 @@ interface Map {
 // google - company name mentioned in Experience.json (lower cased)
 // Google - imported nam
 export const logo: Map = {
-  google: Google,
+  innovaccer: innovaccer,
   verizon: Verizon,
 };
 

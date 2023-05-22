@@ -1,17 +1,21 @@
 [
   {
-    "span": "Year Month -  current",
-    "company": "Google",
+    "span": "2022 January - Current",
+    "company": "Innovaccer",
     "linkedIn": "https://www.linkedin.com/company/google/",
     "twitter": "https://twitter.com/googleindia",
-    "location": "City, State",
+    "location": "Noida 62, UttarPradesh",
     "progress": [
       {
-        "role": "Role Name",
-        "span": "Year Month - Current",
+        "role": "Associate Software Engineer",
+        "span": "2022 January - Current",
         "descriptions": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-          "In commodi consequatur quidem? Nemo officiis inventore praesentium hic saepe ut delectus"
+          "Created P1 issue creation platform from scratch ",
+          "Techstack: Django/mongodb",
+          "Handling the process of P1/P0 issue resolution for, all the customers, thus reducing the manual efforts,and timing of the users in India and USA",
+          "Handles all the complicated technicalities and process through a form based interface along with multiple configuration, maintaining history, filters which reduce the manual efforts",
+          "Multilevel GOOGLE authentication and authorization.",
+          "Automatic Jira ticket creation, war room, sending email"
         ]
       },
       {
@@ -25,7 +29,7 @@
   },
   {
     "span": "Year July - Year Month",
-    "company": "Google",
+    "company": "Innovaccer",
     "location": "City, State",
     "linkedIn": "https://www.linkedin.com/company/google/",
     "twitter": "https://twitter.com/googleindia",
